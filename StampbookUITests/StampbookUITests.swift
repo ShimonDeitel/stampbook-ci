@@ -49,7 +49,7 @@ final class StampbookUITests: XCTestCase {
         let addButton = app.buttons["addCardButton"]
         XCTAssertTrue(addButton.waitForExistence(timeout: 8))
         addButton.tap()
-        var nameField = app.textFields["cardNameField"]
+        let nameField = app.textFields["cardNameField"]
         XCTAssertTrue(nameField.waitForExistence(timeout: 5))
         nameField.tap()
         nameField.typeText("Third Card")
@@ -59,16 +59,9 @@ final class StampbookUITests: XCTestCase {
         app.textFields["rewardField"].typeText("Free")
         app.buttons["cardSaveButton"].tap()
 
+        // Now at the free limit (3 cards) — tapping add again should show the
+        // paywall directly instead of the add-card form.
         addButton.tap()
-        nameField = app.textFields["cardNameField"]
-        XCTAssertTrue(nameField.waitForExistence(timeout: 5))
-        nameField.tap()
-        nameField.typeText("Fourth Card")
-        app.textFields["punchesRequiredField"].tap()
-        app.textFields["punchesRequiredField"].typeText("5")
-        app.textFields["rewardField"].tap()
-        app.textFields["rewardField"].typeText("Free")
-        app.buttons["cardSaveButton"].tap()
 
         XCTAssertTrue(app.buttons["purchaseProButton"].waitForExistence(timeout: 8))
     }
