@@ -180,33 +180,41 @@ private struct StampCardTile: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            HStack {
-                Image(systemName: card.category.symbolName)
-                    .foregroundStyle(accentColor)
-                Spacer()
-                if card.isRewardEarned {
-                    Image(systemName: "star.fill")
-                        .foregroundStyle(SBTheme.reward)
-                        .accessibilityIdentifier("rewardBadge_\(card.name)")
+            Button {
+                onTap()
+            } label: {
+                VStack(alignment: .leading, spacing: 8) {
+                    HStack {
+                        Image(systemName: card.category.symbolName)
+                            .foregroundStyle(accentColor)
+                        Spacer()
+                        if card.isRewardEarned {
+                            Image(systemName: "star.fill")
+                                .foregroundStyle(SBTheme.reward)
+                                .accessibilityIdentifier("rewardBadge_\(card.name)")
+                        }
+                    }
+
+                    Text(card.name)
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(SBTheme.ink)
+                        .lineLimit(1)
+
+                    Text("\(card.currentPunches)/\(card.punchesRequired)")
+                        .font(.caption)
+                        .foregroundStyle(SBTheme.inkFaded)
+
+                    HStack(spacing: 4) {
+                        ForEach(0..<min(card.punchesRequired, 8), id: \.self) { index in
+                            Circle()
+                                .fill(index < card.currentPunches ? accentColor : SBTheme.hole.opacity(0.25))
+                                .frame(width: 8, height: 8)
+                        }
+                    }
                 }
             }
-
-            Text(card.name)
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(SBTheme.ink)
-                .lineLimit(1)
-
-            Text("\(card.currentPunches)/\(card.punchesRequired)")
-                .font(.caption)
-                .foregroundStyle(SBTheme.inkFaded)
-
-            HStack(spacing: 4) {
-                ForEach(0..<min(card.punchesRequired, 8), id: \.self) { index in
-                    Circle()
-                        .fill(index < card.currentPunches ? accentColor : SBTheme.hole.opacity(0.25))
-                        .frame(width: 8, height: 8)
-                }
-            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("cardTile_\(card.name)")
 
             Button {
                 onPunch()
@@ -228,10 +236,6 @@ private struct StampCardTile: View {
                 .strokeBorder(accentColor.opacity(0.35), lineWidth: 1.5)
         )
         .clipShape(RoundedRectangle(cornerRadius: 16))
-        .accessibilityIdentifier("cardTile_\(card.name)")
-        .onTapGesture {
-            onTap()
-        }
     }
 }
 
