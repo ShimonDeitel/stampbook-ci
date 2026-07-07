@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0522A50FEFFB31E97187EB54 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16487335024E218767273E5 /* Models.swift */; };
+		26237856068C1E7A71883BB9 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976C6D0CFB337BCE6AA28677 /* CardListView.swift */; };
+		32218CB19B9C6C956FD3DD9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833316DD053D1430E1FD4B0F /* Assets.xcassets */; };
+		33C8A577C60A9504D739A6F9 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB292C137053B673294AA8 /* RootTabView.swift */; };
+		3D0B648FCB97473C3D1A61E4 /* StampbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C071D21F41333D8F909B25 /* StampbookUITests.swift */; };
+		46F4595A316D0A76527725C5 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE241B881D847F4187B6E2 /* PurchaseManager.swift */; };
+		4D58400588BD01DFB49E5756 /* StampbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20227B7606E812966A0FDD /* StampbookTests.swift */; };
+		67E0C0C078A45BA4CEB49969 /* Stampbook.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8D1376D76DF4E544D4DE61FB /* Stampbook.storekit */; };
+		A264952FECC438E5494B55FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295BF1BFB8489D986D63FE8 /* Theme.swift */; };
+		AC16880EBBB5DE1700662CD8 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35E03C8D6591123B60196C /* App.swift */; };
+		AF1971BE3E9CDF1DEDD2DD6A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069EDD2FDF56733ADE18B7DB /* SettingsView.swift */; };
+		D922AD98FE4840E1C7551B61 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB2DD43AD1B4F959237A7E8 /* Sheets.swift */; };
+		DAC327F8270FD422E0A63787 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8424C05F50BD26FC4FA8CB /* Store.swift */; };
+		E8F36EA2C76E4A1D4737C729 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BC0F93D6CEA9A04E90DCD0 /* PaywallView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74A06C546EE8BCF531FE985F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8DD00AB67485AC7FEFD13E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B65CE81D470F9CD98803121;
+			remoteInfo = Stampbook;
+		};
+		A50DF18235A7D83412CD0BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8DD00AB67485AC7FEFD13E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B65CE81D470F9CD98803121;
+			remoteInfo = Stampbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069EDD2FDF56733ADE18B7DB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2C20227B7606E812966A0FDD /* StampbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampbookTests.swift; sourceTree = "<group>"; };
+		308B4B2E064E2F61BE3B94B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3AB2DD43AD1B4F959237A7E8 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		4ECB292C137053B673294AA8 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		63BB28DBD296DDBE49B407E2 /* Stampbook.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Stampbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FF85DA268E6F784C1CBCFE /* StampbookUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StampbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A35E03C8D6591123B60196C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		77BC0F93D6CEA9A04E90DCD0 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		8295BF1BFB8489D986D63FE8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		833316DD053D1430E1FD4B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D1376D76DF4E544D4DE61FB /* Stampbook.storekit */ = {isa = PBXFileReference; path = Stampbook.storekit; sourceTree = "<group>"; };
+		976C6D0CFB337BCE6AA28677 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		C16487335024E218767273E5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C9C071D21F41333D8F909B25 /* StampbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampbookUITests.swift; sourceTree = "<group>"; };
+		D0EE241B881D847F4187B6E2 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		D1B4AA53DB7FD77F7DA9BE55 /* StampbookTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StampbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8424C05F50BD26FC4FA8CB /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F49E7860326ED80E49AA595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BB28DBD296DDBE49B407E2 /* Stampbook.app */,
+				D1B4AA53DB7FD77F7DA9BE55 /* StampbookTests.xctest */,
+				67FF85DA268E6F784C1CBCFE /* StampbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D6430A4E8D239FE99A8607 /* Stampbook */ = {
+			isa = PBXGroup;
+			children = (
+				6A35E03C8D6591123B60196C /* App.swift */,
+				833316DD053D1430E1FD4B0F /* Assets.xcassets */,
+				976C6D0CFB337BCE6AA28677 /* CardListView.swift */,
+				308B4B2E064E2F61BE3B94B3 /* Info.plist */,
+				C16487335024E218767273E5 /* Models.swift */,
+				77BC0F93D6CEA9A04E90DCD0 /* PaywallView.swift */,
+				D0EE241B881D847F4187B6E2 /* PurchaseManager.swift */,
+				4ECB292C137053B673294AA8 /* RootTabView.swift */,
+				069EDD2FDF56733ADE18B7DB /* SettingsView.swift */,
+				3AB2DD43AD1B4F959237A7E8 /* Sheets.swift */,
+				DC8424C05F50BD26FC4FA8CB /* Store.swift */,
+				8295BF1BFB8489D986D63FE8 /* Theme.swift */,
+			);
+			path = Stampbook;
+			sourceTree = "<group>";
+		};
+		3F4E89514FE061228F10FF7A /* StampbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C20227B7606E812966A0FDD /* StampbookTests.swift */,
+			);
+			path = StampbookTests;
+			sourceTree = "<group>";
+		};
+		5B3B7988797C3BEDB9F21629 /* StampbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C071D21F41333D8F909B25 /* StampbookUITests.swift */,
+			);
+			path = StampbookUITests;
+			sourceTree = "<group>";
+		};
+		A3AD63A2A8664432A4DCE839 = {
+			isa = PBXGroup;
+			children = (
+				38D6430A4E8D239FE99A8607 /* Stampbook */,
+				3F4E89514FE061228F10FF7A /* StampbookTests */,
+				5B3B7988797C3BEDB9F21629 /* StampbookUITests */,
+				8D1376D76DF4E544D4DE61FB /* Stampbook.storekit */,
+				2F49E7860326ED80E49AA595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302EA41C5BE8A23040E568CE /* StampbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C7FA3CCCA1B88B07B260D /* Build configuration list for PBXNativeTarget "StampbookTests" */;
+			buildPhases = (
+				D84BDFAD715042D3939D89E8 /* Sources */,
+				579B03B4AD2A14F501541C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C47612C1A592E555695EC6D /* PBXTargetDependency */,
+			);
+			name = StampbookTests;
+			packageProductDependencies = (
+			);
+			productName = StampbookTests;
+			productReference = D1B4AA53DB7FD77F7DA9BE55 /* StampbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B65CE81D470F9CD98803121 /* Stampbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2561FD4CD775383957B6F3 /* Build configuration list for PBXNativeTarget "Stampbook" */;
+			buildPhases = (
+				28A94FABEBA2D1260B4B151C /* Sources */,
+				ABA40B90DF8F416DDF8D6D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stampbook;
+			packageProductDependencies = (
+			);
+			productName = Stampbook;
+			productReference = 63BB28DBD296DDBE49B407E2 /* Stampbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0551248920D1FCF51E7FE43 /* StampbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1553FC44F37DECDEC3CEB70F /* Build configuration list for PBXNativeTarget "StampbookUITests" */;
+			buildPhases = (
+				C21F0EBC4E80BF22098B92D1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD5A3951EEA3989B6F13615 /* PBXTargetDependency */,
+			);
+			name = StampbookUITests;
+			packageProductDependencies = (
+			);
+			productName = StampbookUITests;
+			productReference = 67FF85DA268E6F784C1CBCFE /* StampbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8DD00AB67485AC7FEFD13E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					302EA41C5BE8A23040E568CE = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					4B65CE81D470F9CD98803121 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					F0551248920D1FCF51E7FE43 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B65CE81D470F9CD98803121;
+					};
+				};
+			};
+			buildConfigurationList = 9058A289E2DBE02AF8FA21B8 /* Build configuration list for PBXProject "Stampbook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A3AD63A2A8664432A4DCE839;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2F49E7860326ED80E49AA595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B65CE81D470F9CD98803121 /* Stampbook */,
+				302EA41C5BE8A23040E568CE /* StampbookTests */,
+				F0551248920D1FCF51E7FE43 /* StampbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579B03B4AD2A14F501541C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E0C0C078A45BA4CEB49969 /* Stampbook.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA40B90DF8F416DDF8D6D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32218CB19B9C6C956FD3DD9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A94FABEBA2D1260B4B151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16880EBBB5DE1700662CD8 /* App.swift in Sources */,
+				26237856068C1E7A71883BB9 /* CardListView.swift in Sources */,
+				0522A50FEFFB31E97187EB54 /* Models.swift in Sources */,
+				E8F36EA2C76E4A1D4737C729 /* PaywallView.swift in Sources */,
+				46F4595A316D0A76527725C5 /* PurchaseManager.swift in Sources */,
+				33C8A577C60A9504D739A6F9 /* RootTabView.swift in Sources */,
+				AF1971BE3E9CDF1DEDD2DD6A /* SettingsView.swift in Sources */,
+				D922AD98FE4840E1C7551B61 /* Sheets.swift in Sources */,
+				DAC327F8270FD422E0A63787 /* Store.swift in Sources */,
+				A264952FECC438E5494B55FC /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21F0EBC4E80BF22098B92D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0B648FCB97473C3D1A61E4 /* StampbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BDFAD715042D3939D89E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D58400588BD01DFB49E5756 /* StampbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C47612C1A592E555695EC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B65CE81D470F9CD98803121 /* Stampbook */;
+			targetProxy = A50DF18235A7D83412CD0BB2 /* PBXContainerItemProxy */;
+		};
+		FBD5A3951EEA3989B6F13615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B65CE81D470F9CD98803121 /* Stampbook */;
+			targetProxy = 74A06C546EE8BCF531FE985F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AD9C27313991C7C2ADD487A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Stampbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.stampbook;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6259DDC3FE733C654827AC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.stampbook.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Stampbook;
+			};
+			name = Debug;
+		};
+		6A06C49461E4AB50C5697054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.stampbook.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stampbook.app/Stampbook";
+			};
+			name = Release;
+		};
+		81E93FB11A03CD63CAC50F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.stampbook.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stampbook.app/Stampbook";
+			};
+			name = Debug;
+		};
+		955EC8B00F2F463A3FAF53E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Stampbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.stampbook;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9B270ED4A1DEE6407F3936C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.stampbook.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Stampbook;
+			};
+			name = Release;
+		};
+		B5B4A432C761C9A18D66D74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E56BF69F378A5ADEAE6D08BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1553FC44F37DECDEC3CEB70F /* Build configuration list for PBXNativeTarget "StampbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6259DDC3FE733C654827AC02 /* Debug */,
+				9B270ED4A1DEE6407F3936C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A2561FD4CD775383957B6F3 /* Build configuration list for PBXNativeTarget "Stampbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955EC8B00F2F463A3FAF53E9 /* Debug */,
+				2AD9C27313991C7C2ADD487A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9058A289E2DBE02AF8FA21B8 /* Build configuration list for PBXProject "Stampbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B4A432C761C9A18D66D74C /* Debug */,
+				E56BF69F378A5ADEAE6D08BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D61C7FA3CCCA1B88B07B260D /* Build configuration list for PBXNativeTarget "StampbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E93FB11A03CD63CAC50F02 /* Debug */,
+				6A06C49461E4AB50C5697054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8DD00AB67485AC7FEFD13E0 /* Project object */;
+}

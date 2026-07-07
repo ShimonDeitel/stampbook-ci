@@ -1,0 +1,42 @@
+{
+  "identifier" : "stampbook",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_askToBuyEnabled" : false
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21000101",
+      "localizations" : [],
+      "name" : "Stampbook Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "stampbook_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlocks unlimited punch cards, photo attachments, and card archiving",
+              "displayName" : "Stampbook Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "stampbook_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Stampbook Pro Monthly",
+          "subscriptionGroupID" : "21000101",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
