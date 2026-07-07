@@ -53,6 +53,7 @@ struct PaywallView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 16))
                     }
                     .disabled(purchasing || purchases.product == nil)
+                    .accessibilityIdentifier("purchaseProButton")
                     .padding(.horizontal, 24)
 
                     Button("Restore Purchases") {
